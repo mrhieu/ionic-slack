@@ -1,0 +1,7 @@
+{
+  "name": "ionic-slack",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
