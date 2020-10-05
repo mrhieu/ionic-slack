@@ -1,3 +1,7 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-menu type="push" side="start" contentId="main-content" swipeGesture="true">
+    <side-menu></side-menu>
+  </ion-menu>
+
+  <ion-router-outlet id="main-content"></ion-router-outlet>
 </ion-app>
