@@ -16,15 +16,17 @@
   <ion-searchbar class="jump-to-box" placeholder="Jump to..."></ion-searchbar>
 
   <ion-list class="has-fab">
-    <ion-item lines="none" *ngFor="let i of [0,1,2,3,4,5,6]">
-      <ion-avatar slot="start">
+    <ion-item *ngFor="let i of [0,1,2,3,4,5,6]">
+      <ion-avatar slot="start" class="avatar-custom">
         <img src="{{'assets/img/avatars/' + (i%5 + 1) + '.jpg'}}" alt="">
       </ion-avatar>
-      <ion-label>
-        <h3>Song number 1</h3>
-        <p>Ed Sheeran</p>
+      <ion-label class="ion-text-wrap">
+        <h3>Team Member {{ i + 1 }}</h3>
+        <p>The weekly meeting? Can we reschedule it to this Christmas?</p>
       </ion-label>
-      <ion-icon slot="end" name="ellipsis-horizontal-sharp" size="small"></ion-icon>
+      <div class="timestamp">
+        Sep 25th
+      </div>
     </ion-item>
   </ion-list>
 

@@ -1,0 +1,11 @@
+ion-item {
+  --border-color: var(--ion-color-light);
+}
+
+.timestamp {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 13px;
+  color: var(--ion-color-medium);
+}

@@ -1,0 +1,20 @@
+.page-top {
+  padding: 16px 0;
+  border-bottom: 1px solid var(--ion-color-light);
+}
+
+.my-avatar {
+  --border-radius: 6px;
+  width: 48px;
+  height: 48px;
+}
+
+.button-status {
+  font-weight: 400;
+  text-align: left;
+  margin: 8px 20px;
+}
+
+ion-item {
+  --border-color: var(--ion-color-light);
+}

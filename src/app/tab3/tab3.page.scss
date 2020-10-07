@@ -1,0 +1,28 @@
+.item {
+  position: relative;
+}
+
+ion-item {
+  --border-color: var(--ion-color-light);
+
+  p {
+    color: var(--ion-text-color);
+  }
+}
+
+.timestamp {
+  position: absolute;
+  top: 0;
+  right: 16px;
+  font-size: 13px;
+  color: var(--ion-color-medium);
+}
+
+.mention {
+  padding-left: 76px;
+  padding-right: 56px;
+  font-size: 13px;
+  color: var(--ion-color-medium);
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
