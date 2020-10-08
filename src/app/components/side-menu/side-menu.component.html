@@ -1,73 +1,67 @@
-<ion-header class="ion-no-border">
-  <ion-toolbar class="toolbar-transparent toolbar-side-menu"></ion-toolbar>
-</ion-header>
-<ion-content class="bg-side-menu">
-  <div>
-    <ion-row class="ion-padding">
-      <ion-col>
-        <ion-avatar class="thumbnail-lg">
-          <img src="assets/img/avatars/hieu.png" alt="">
-        </ion-avatar>
-        <div class="username">Hieu Pham</div>
-        <div>
-          <ion-text color="medium">@mrhieu</ion-text>
+<ion-content>
+  <ion-row class="menu-layout">
+    <ion-col size="auto">
+      <div class="col-inner">
+        <div class="workspace-list ion-margin-bottom">
+          <div class="workspace-item">
+            <ion-thumbnail>
+              <img src="assets/img/logo.png" alt="">
+            </ion-thumbnail>
+            <div class="workspace-title">slack</div>
+          </div>
         </div>
-      </ion-col>
-      <ion-col size="auto">
-        <ion-menu-toggle>
-          <ion-button fill="clear" color="primary" class="button-no-padding">
-            <ion-icon slot="icon-only" name="ellipsis-horizontal-circle-outline"></ion-icon>
-          </ion-button>
-        </ion-menu-toggle>
-      </ion-col>
-    </ion-row>
 
-    <div class="stats ion-padding-start">
-      <div class="stats-item">
-        <span class="stats-number">235</span>
-        <ion-text color="medium">Following</ion-text>
+        <ion-button fill="clear" size="small">
+          <ion-icon slot="icon-only" name="add-outline"></ion-icon>
+        </ion-button>
       </div>
-      <div class="stats-item">
-        <span class="stats-number">165</span>
-        <ion-text color="medium">Followers</ion-text>
-      </div>
-    </div>
-  </div>
+    </ion-col>
 
-  <ion-list>
-    <ion-menu-toggle>
-      <ion-item lines="none">
-        <ion-icon slot="start" name="person-outline" color="medium"></ion-icon>
-        <ion-label><h2>Profile</h2></ion-label>
-      </ion-item>
-    </ion-menu-toggle>
-    <ion-item lines="none">
-      <ion-icon slot="start" name="list-outline" color="medium"></ion-icon>
-      <ion-label><h2>List</h2></ion-label>
-    </ion-item>
-    <ion-item lines="none">
-      <ion-icon slot="start" name="chatbubble-ellipses-outline" color="medium"></ion-icon>
-      <ion-label><h2>Topics</h2></ion-label>
-    </ion-item>
-    <ion-item lines="none">
-      <ion-icon slot="start" name="bookmark-outline" color="medium"></ion-icon>
-      <ion-label><h2>Bookmarks</h2></ion-label>
-    </ion-item>
-    <ion-item lines="full">
-      <ion-icon slot="start" name="flash-outline" color="medium"></ion-icon>
-      <ion-label><h2>Moments</h2></ion-label>
-    </ion-item>
-    <ion-item lines="full" href="https://takethatdesign.com" target="_blank" rel="noreferrer noopener">
-      <ion-icon slot="start" name="open-outline" color="medium"></ion-icon>
-      <ion-label><h2>Visit <strong>takethatdesign.com</strong></h2></ion-label>
-    </ion-item>
-    <ion-menu-toggle>
-      <ion-item lines="none">
-        <ion-label><h2>Settings and privacy</h2></ion-label>
-      </ion-item>
-    </ion-menu-toggle>
-    <ion-item lines="none">
-      <ion-label><h2>Help Center</h2></ion-label>
-    </ion-item>
-  </ion-list>
+    <ion-col>
+      <div class="col-inner">
+        <ion-list>
+          <ion-item lines="full">
+            <ion-label>
+              <h2><strong>slack</strong></h2>
+              <p>takethatdesign.com</p>
+            </ion-label>
+          </ion-item>
+
+          <ion-item lines="none">
+            <ion-icon slot="start" name="chatbubbles-outline" size="small"></ion-icon>
+            <ion-label>Channel browser</ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-icon slot="start" name="people-outline" size="small"></ion-icon>
+            <ion-label>People</ion-label>
+          </ion-item>
+          <ion-item lines="full">
+            <ion-icon slot="start" name="documents-outline" size="small"></ion-icon>
+            <ion-label>Files</ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-icon slot="start" name="person-add-outline" size="small"></ion-icon>
+            <ion-label>Invite people</ion-label>
+          </ion-item>
+          <ion-item lines="full">
+            <ion-icon slot="start" name="help-circle-outline" size="small"></ion-icon>
+            <ion-label>Help</ion-label>
+          </ion-item>
+          <ion-item lines="none">
+            <ion-icon slot="start" name="settings-outline" size="small"></ion-icon>
+            <ion-label>Preferences</ion-label>
+          </ion-item>
+          <ion-item lines="full">
+            <ion-icon slot="start" name="log-out-outline" size="small"></ion-icon>
+            <ion-label>Sign out of slack</ion-label>
+          </ion-item>
+
+          <ion-item lines="none" href="https://takethatdesign.com" target="_blank" rel="noreferrer noopener">
+            <ion-icon slot="start" name="open-outline" size="small"></ion-icon>
+            <ion-label><strong>takethatdesign.com</strong></ion-label>
+          </ion-item>
+        </ion-list>
+      </div>
+    </ion-col>
+  </ion-row>
 </ion-content>

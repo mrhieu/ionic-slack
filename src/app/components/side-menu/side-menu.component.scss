@@ -1,3 +1,47 @@
 :host {
   height: 100%;
 }
+
+ion-item {
+  --border-color: var(--ion-color-light);
+
+  ion-label {
+    font-size: 14px;
+  }
+}
+
+.menu-layout {
+  height: 100%;
+
+  ion-col {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:first-child {
+      background: var(--ion-color-light);
+    }
+
+    &:last-child {
+      padding: 0;
+    }
+  }
+
+  .col-inner {
+    width: 100%;
+  }
+}
+
+.workspace-item {
+  text-align: center;
+
+  ion-thumbnail {
+    --border-radius: 4px;
+  }
+
+  .workspace-title {
+    font-size: 10px;
+    margin-top: 2px;
+  }
+}
