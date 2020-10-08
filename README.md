@@ -1,10 +1,10 @@
-# Ionic 5 <PROJECT_NAME>
+# Ionic 5 Slack
 
-[View on Github](https://github.com/mrhieu/ionic-<PROJECT_NAME>)
+[View on Github](https://github.com/mrhieu/ionic-slack)
 
-[Demo](https://mrhieu.github.io/ionic-<PROJECT_NAME>/)
+[Demo](https://mrhieu.github.io/ionic-slack/)
 
-![Simulator Screen Shot - iPhone SE (2nd generation) - 2020-06-21 at 18 50 49](<PROJECT_SCREENSHOT>)
+![small](https://user-images.githubusercontent.com/1593560/95485096-d57ddb80-09c3-11eb-96c4-61af77d7984d.png)
 
 
 
