@@ -1,0 +1,35 @@
+.sub-title {
+  font-size: 12px;
+  color: var(--ion-color-medium);
+  font-weight: 400;
+}
+
+.shared-photo {
+  margin-top: 8px;
+  img {
+    border-radius: 4px;
+  }
+}
+
+.submit-button {
+  --padding-start: 12px;
+  --padding-end: 12px;
+  --border-radius: 8px !important;
+  height: 39px;
+  margin-left: 8px;
+  align-self: flex-end;
+}
+
+.message-input {
+  border-radius: 20px;
+  padding: 0 16px;
+}
+
+ion-footer ion-toolbar{
+  padding-left: 8px;
+  padding-right: 8px;
+  --padding-top: 8px;
+  --padding-bottom: 8px;
+  --ion-safe-area-bottom: 0;
+  --device-safe-area: env(safe-area-inset-bottom);
+}

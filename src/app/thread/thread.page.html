@@ -1,0 +1,63 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+
+    <ion-title>
+      <div>My team</div>
+      <div class="sub-title">
+        8 members
+      </div>
+    </ion-title>
+
+    <ion-buttons slot="end">
+      <ion-button>
+        <ion-icon slot="icon-only" name="list-circle-outline"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="information-circle-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item lines="none" *ngFor="let i of [0,1,2,3,4,5,6]">
+      <ion-avatar slot="start" class="avatar-custom">
+        <img src="{{'assets/img/avatars/' + (i%5 + 1) + '.jpg'}}" alt="">
+      </ion-avatar>
+      <ion-label class="ion-text-wrap">
+        <h3>
+          <strong>Team Member</strong>
+          <ion-text color="medium"> 11:54 AM</ion-text>
+        </h3>
+        <div>
+          <span class="label-mention">@here</span>The weekly meeting? Can we reschedule it to this Christmas?
+          <div class="shared-photo" *ngIf="i === 3">
+            <img src="assets/img/img_1.png" alt="">
+          </div>
+        </div>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons slot="start" class="ion-align-self-end">
+      <ion-button fill="clear">
+      	<ion-icon slot="icon-only" name="image-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+
+    <ion-textarea class="message-input" rows="1" auto-grow="true" placeholder="Message My team"></ion-textarea>
+
+    <ion-buttons slot="end" class="ion-align-self-end">
+      <ion-button fill="clear">
+      	<ion-icon slot="icon-only" name="send-sharp"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
